@@ -8,6 +8,10 @@
 
 import Foundation
 
+func greeting(name: String = "Friend") -> String {
+	return "Greeting, \(name)!"
+}
+
 func hello(name: String = "World") -> String {
 	return "Hello, \(name)!"
 }
