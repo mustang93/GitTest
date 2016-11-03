@@ -8,5 +8,9 @@
 
 import Foundation
 
+func hello(name: String = "World") -> String {
+	return "Hello, \(name)!"
+}
+
 print("Hello, World!")
 
